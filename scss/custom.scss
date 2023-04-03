@@ -1,0 +1,105 @@
+$container-max-widths: (
+  xs: 575.98px,
+  sm: 767.98px,
+  md: 991.98px,
+  lg: 1229.98px,
+);
+
+$grid-breakpoints: (
+xs: 0,
+sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1230px,
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@media (max-width: 575.98px){
+  .col-xs {
+    flex: 1 0 0%;
+  }
+  .row-cols-xs-auto > * {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .row-cols-xs-1 > * {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .row-cols-xs-2 > * {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .row-cols-xs-3 > * {
+    flex: 0 0 auto;
+    width: 33.3333333333%;
+  }
+  .row-cols-xs-4 > * {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .row-cols-xs-5 > * {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+  .row-cols-xs-6 > * {
+    flex: 0 0 auto;
+    width: 16.6666666667%;
+  }
+  .col-xs-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .col-xs-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .col-xs-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .col-xs-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .col-xs-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .col-xs-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .col-xs-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .col-xs-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .col-xs-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .col-xs-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .col-xs-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .col-xs-12 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+

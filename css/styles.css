@@ -1,0 +1,249 @@
+html {
+  background-color: black;
+}
+
+body {
+  background-color: black;
+}
+
+.custom_container {
+  background-color: black;
+  padding-top: 15px;
+}
+
+.custom_row {
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom_content {
+  margin: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-family: "Roboto";
+  max-width: 770px;
+}
+
+.custom_content_top {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding: 15px;
+  max-width: 100%;
+  margin: 30px 0px 0px 0px;
+  border: 1px solid #919487;
+
+}
+
+.custom_content_bottom {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 15px;
+  max-width: 100%;
+  margin: 0px;
+  border: 1px solid #919487;
+}
+
+.custom_content_top a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  background-color: rgb(0, 0, 0);
+  word-break: break-all;
+  margin: 0px;
+}
+
+#posts {
+  padding: 0px;
+}
+
+.border_custom {
+border-top-right-radius: 4px;
+border-top-left-radius: 4px;
+border-bottom-style: none;
+background-image: linear-gradient(to right, #919487 50%, rgba(186, 82, 82, 0) 50%);
+background-position: bottom;
+background-size: 15px 1px;
+background-repeat: repeat-x;
+}
+
+.border_custom_2 {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-style: none;
+}
+
+.custom_form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  padding: 25px 0px;
+  width: 770px;
+}
+
+.custom_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  background-color: rgb(0, 0, 0);
+}
+
+.custom_span {
+  color: white;
+}
+
+.img_resize {
+  max-width: 1000px;
+}
+
+#main_header{
+  font-family: 'Roboto Mono';
+  margin: auto;
+  padding: 20px;
+  color: #C9F746;
+  background-image: linear-gradient(to right, #4D4F48, black);
+  border-radius: 4px;
+  max-width: 770px;
+}
+
+h1 {
+  height: 56px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  /* line-height: 40px; */
+  display: flex;
+  align-items: center;
+  color: #C9F746;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+
+h4 {
+font-weight: 400;
+font-size: 21px;
+}
+
+.small_text {
+  font-size: 12px;
+  font-weight: 400;
+  color: #C9F746;
+}
+
+.small_text_2 {
+  font-size: 12px;
+  font-weight: 400;
+  color: #919487;
+}
+
+@media (min-width: 1230px){
+ h1 {
+  height: 80px;
+  font-size: 44px;
+ } 
+ h4 {
+  font-size: 24px;
+ }
+ .small_text {
+  font-size: 14px;
+ }
+ .small_text_2 {
+  font-size: 14px;
+ }
+}
+
+
+
+
+
+
+@media (max-width: 1230px){
+  .custom_form, .custom_content, #main_header {
+    max-width: 610px;
+  }
+
+}
+
+@media (max-width: 992px){
+  .custom_form, .custom_content, #main_header {
+    max-width: 570px;
+  }
+}
+
+@media (max-width: 768px){
+  .custom_form, .custom_content, #main_header {
+    max-width: 540px;
+  }
+}
+
+@media (max-width: 576px){
+  .custom_form, .custom_content, #main_header {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+#b1 {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #4D4F48;
+  background-color: black;
+  border: 1px solid #919487;
+  font-size: 16px;
+}
+
+#b2 {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #C9F646;
+  border: 1px solid #C9F646;
+  font-size: 16px;
+}
+
+#b1:hover {
+  background-color: #2b2b2b;
+}
+
+#b2:hover {
+  background-color: #9BCC0F;
+}
+
+.custom_content:hover {
+  background-color: #4D4F48;
+  color: #C9F646;
+}
+
+.custom_content:hover .small_text_2 {
+  background-color: #4D4F48;
+  color: #C9F646;
+}
+
+.custom_content:hover .custom_content_top {
+  background-image: linear-gradient(to right, #C9F646 50%, rgba(186, 82, 82, 0) 50%);
+  border-color: #C9F646;
+}
+
+.custom_content:hover .custom_content_bottom {
+  border-color: #C9F646;
+}

@@ -1,0 +1,31 @@
+I used node to get bootstrap. Then I used sass to create a custom css file with customized bootstrap.
+
+!--------------------- Be sure to edit getToken.php and handle.php -------------------------!
+!------------------- Program will not work without editing getToken ------------------------!
+Enter in Reddit API client details.
+
+!-------Local Deployment---------!
+See https://www.reddit.com/prefs/apps to get necessary information.
+If you don't have another app with the "script" application type, click on "create another app."
+Give it a name and select "script" for the application type.
+Add a redirect uri. This part isn't important, but it is required.
+Click "create app."
+The Client ID will be in the top-left corner underneath "personal use script."
+The Client Secret will be besides "secret."
+For local deployment, I used a php plugin on VS code to serve the project to localhost.
+I beleive the plugin is "PHP Server." 
+Simply right click within index.php and click "PHP Server: Serve project."
+
+
+!--------------PHP settings--------------!
+I edited php.ini by uncommenting the following:
+extension=openssl
+If your php folder does not include php.ini, copy php.ini-development and rename it to php.ini
+Then make changes to this file. May need to reset your IDE after making this change. Definitely
+re-serve the project. 
+
+Commands for vs-code to get things started:
+npm init -y
+npm i
+
+
